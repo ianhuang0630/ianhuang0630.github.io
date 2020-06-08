@@ -1,0 +1,22 @@
+{
+  "name": "anna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianhuang0630/annasbirfday.git"
+  },
+  "author": "Ian Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianhuang0630/annasbirfday/issues"
+  },
+  "homepage": "https://github.com/ianhuang0630/annasbirfday#readme",
+  "dependencies": {
+    "confetti-js": "0.0.18"
+  }
+}
