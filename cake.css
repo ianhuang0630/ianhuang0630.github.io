@@ -43,6 +43,7 @@
   border-radius: 50%;
   display: block;
   background-color: #553c13;
+  /*
   box-shadow: 
   0 6px 0px #6a4b18, 
   0 12px 0px #33240b, 
@@ -59,6 +60,24 @@
   0 78px 0px #2a1d09, 
   0 84px 0px #291d09, 
   0 90px 0px #281c09;
+  */
+  box-shadow: 
+  0 6px 0px #6a4b18, 
+  0 12px 0px #33240b, 
+  0 18px 0px #32230b, 
+  0 24px 0px #31230b, 
+  0 30px 0px #30220b, 
+  0 36px 0px #2f220b, 
+  0 42px 0px #2f210a, 
+  0 48px 0px #2e200a, 
+  0 54px 0px #95dab6, 
+  0 60px 0px #dc8580, 
+  0 66px 0px #7f87b2, 
+  0 72px 0px #83b2d0, 
+  0 78px 0px #2a1d09, 
+  0 84px 0px #291d09, 
+  0 90px 0px #281c09;
+
 }
 
 .imjoking_content{
