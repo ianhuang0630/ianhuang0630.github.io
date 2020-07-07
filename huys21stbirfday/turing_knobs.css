@@ -1,0 +1,282 @@
+
+.lightbulb_mount{
+    position: relative;
+    margin: auto;
+    height: 40px;
+    width: 70px;
+    background: darkgrey;
+}
+
+
+.beam{
+    margin: auto;
+    height: 40px;
+    width: 1000px;
+    background: grey;
+}
+.beamtotop{
+    position: relative;
+    z-index: 100;
+    top: -720px;
+} 
+.beamtobottom{
+    position: relative;
+    top: -80px;
+}
+.beamhole{
+    position:relative;
+    height: 20px;
+    width: 20px;
+    background: #222222;
+    top: 5px;
+    border-radius:50%; 
+    margin: auto;
+}
+
+.beamcore{
+    position: relative;
+    height:30px;
+    width: 990px;
+    top: 5px;
+    left:4px;
+    background: darkgrey;
+}
+
+.knob_mount_rim{
+    position: relative;
+    margin: auto;    
+    background: #795C32; 
+    width: 720px;
+    height: 720px;
+    border-radius: 50px;
+}
+.knob_mount{
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background: #43270F;
+    border-radius: 50px;
+} 
+
+.box{
+    padding: 30px;
+    margin:auto;
+}
+.container .box { 
+	display:table; 
+} 
+.container .box .box-row { 
+	display:table-row; 
+} 
+.container .box .box-cell { 
+	display:table-cell; 
+	width:50%; 
+	padding:10px; 
+} 
+.container .box .box-cell .box1 { 
+ } 
+.container .box .box-cell .box2 { 
+} 
+
+.red_rim{
+    background:#BA110C;
+}
+.red_core{
+    background:#800000; 
+}
+
+.orange_rim{
+    background: #FDA50F; 
+}
+.orange_core{
+    background: #FC6600;
+}
+
+.green_rim{
+    background: #9ACD32;
+}
+.green_core{
+    background: #006400;
+}
+
+.blue_rim{
+    background: #0080FF;
+}
+
+.blue_core{
+    background: #1034A6;
+}
+
+.knob_rim{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.knob_interior{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    left: 10px; 
+    top: 10px;
+}
+
+.iron_center{
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    left: 20px;
+    top: 20px;
+    background: #484948;
+}
+
+.steel_center{
+    position: relative;
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    left: 70px;
+    top: 70px;
+    background: #777B7E;
+}
+
+.pewter_center{
+    position:relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    left: 10px;
+    top: 10px;
+    background: #999DA0;  
+}
+
+.black_hole{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 30px; 
+    top: 30px;
+    background: black;
+}
+
+.rot_hole:nth-child(1){
+    transform: rotate(0deg) translate(70px);
+}
+.rot_hole:nth-child(2){
+    transform: rotate(30deg) translate(70px);
+}
+.rot_hole:nth-child(3){
+    transform: rotate(60deg) translate(70px);
+}
+.rot_hole:nth-child(4){
+    transform: rotate(90deg) translate(70px);
+}
+.rot_hole:nth-child(5){
+    transform: rotate(120deg) translate(70px);
+}
+.rot_hole:nth-child(6){
+    transform: rotate(150deg) translate(70px);
+}
+.rot_hole:nth-child(7){
+    transform: rotate(180deg) translate(70px);
+}
+.rot_hole:nth-child(8){
+    transform: rotate(210deg) translate(70px);
+}
+.rot_hole:nth-child(9){
+    transform: rotate(240deg) translate(70px);
+}
+.rot_hole:nth-child(10){
+    transform: rotate(270deg) translate(70px);
+}
+.rot_hole:nth-child(11){
+    transform: rotate(300deg) translate(70px);
+}
+.rot_hole:nth-child(12){
+    transform: rotate(330deg) translate(70px);
+}
+
+
+.numero{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 130px; 
+    top: 130px;
+    color: white; 
+    font-family: "Ubuntu Mono";
+    font-size: 22px;
+}
+
+.rot_numero:nth-child(1){
+    transform: rotate(0deg) translate(130px);  
+}
+.rot_numero:nth-child(2){
+    transform: rotate(36deg) translate(130px);  
+}
+.rot_numero:nth-child(3){
+    transform: rotate(72deg) translate(130px);  
+}
+.rot_numero:nth-child(4){
+    transform: rotate(108deg) translate(130px);  
+}
+.rot_numero:nth-child(5){
+    transform: rotate(144deg) translate(130px);  
+}
+.rot_numero:nth-child(6){
+    transform: rotate(180deg) translate(130px);  
+}
+.rot_numero:nth-child(7){
+    transform: rotate(216deg) translate(130px);  
+}
+.rot_numero:nth-child(8){
+    transform: rotate(252deg) translate(130px);  
+}
+.rot_numero:nth-child(9){
+    transform: rotate(288deg) translate(130px);  
+}
+.rot_numero:nth-child(10){
+    transform: rotate(324deg) translate(130px);  
+}
+
+.knob_clip{
+    transform: scale(0.60) translate(-42px, -6px);
+}
+
+.screw{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 115px; 
+    top: 115px;
+    background: #808588;
+}
+
+.rot_screw:nth-child(1){
+    transform: rotate(45deg) translate(100px);
+}
+
+.rot_screw:nth-child(2){
+    transform: rotate(135deg) translate(100px);
+}
+
+.rot_screw:nth-child(3){
+    transform: rotate(225deg) translate(100px);
+}
+
+.rot_screw:nth-child(4){
+    transform: rotate(320deg) translate(100px);
+}
+
+

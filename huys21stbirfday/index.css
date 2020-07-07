@@ -1,0 +1,91 @@
+
+body {
+    position: relative;
+    background-color: #222222;
+    background-size: 100% 100%;
+}
+.center_wrap{
+    text-align:center;
+}
+.bashpromptprint{
+    color: #FFD300;
+}
+.bashprompt1{
+    position: absolute;
+    margin-left: 50%; 
+    left: -560px;
+    top: -60px;
+}
+
+.bashprompt2{
+    position: absolute;
+    margin-left: 50%; 
+    left: -560px;
+    top: 50px;
+}
+
+h1{
+    font-family: "VT323";
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+}
+.birthdaywish{
+    position: relative;
+    margin-left: 50%;
+}
+#fragment2
+{
+    margin-top:-100px;
+}
+
+#fragment1
+{
+width: 600px;
+white-space:nowrap;
+overflow:hidden;
+-webkit-animation: frag1type 4s steps(50, end) 0s infinite;
+animation: frag1type 4s steps(50, end) 0s infinite;
+}
+@keyframes frag1type{
+    from { width: 0;}
+    37%{width:600px;}
+    49%{width:0;}
+    100%{width:0;}
+}
+
+@-webkit-keyframes frag1type{
+    from { width: 0;}
+    37%{width:600px;}
+    49%{width:0;}
+    100%{width:0;}
+}
+
+#fragment2
+{
+  opacity: 0;
+			width: 600px;
+		    white-space:nowrap;
+		    overflow:hidden;
+		    -webkit-animation: frag2type 4s steps(50, end) 2s infinite;
+		    animation: frag2type 4s steps(50, end) 2s infinite;
+}
+@keyframes frag2type{
+    from { width: 0; opacity:1; }
+    37%{width:600px;opacity:1; }
+    49%{width:0;opacity:1; }
+    100%{width:0;opacity:1; }
+}
+
+@-webkit-keyframes frag2type{
+    from { width: 0; opacity:1; }
+    37%{width:600px;opacity:1; }
+    49%{width:0;opacity:1; }
+    100%{width:0;opacity:1; }
+}
+
+
+
+
+
+
