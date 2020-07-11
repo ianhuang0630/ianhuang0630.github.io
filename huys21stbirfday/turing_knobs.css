@@ -60,6 +60,12 @@
     border-radius: 50px;
 } 
 
+.box1{
+    position: relative;
+}
+.box2{
+    position: relative;
+}
 .box{
     padding: 30px;
     margin:auto;
@@ -80,6 +86,47 @@
 .container .box .box-cell .box2 { 
 } 
 
+.triangular_indicator{
+    position:absolute;
+    top: 250px;
+    left: 290px;
+    transform: rotate(36deg);
+}
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 13px solid grey;
+}
+.indicator_base{
+    position: absolute;
+    left: 12px;
+    top: 0px;
+    width: 40px;
+    height: 26px;
+    background: grey;
+}
+
+.triangle_foreground{
+    position:absolute;
+    left: 4px;
+    top: 4px; 
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid darkgrey;
+}
+.indicator_base_foreground{
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    width: 36px;
+    height: 18px;
+    background: darkgrey;
+}
 .red_rim{
     background:#BA110C;
 }
