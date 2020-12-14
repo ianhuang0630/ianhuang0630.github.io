@@ -2,6 +2,19 @@ body{
     margin-left: 100px;
     margin-right: 100px;
 }
+
+.centerhead{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .under_construction{
     
     display: flex; 

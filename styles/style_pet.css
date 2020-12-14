@@ -2,12 +2,43 @@ body{
     margin-left: 100px;
     margin-right: 100px;
 }
-.under_construction{
-    
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    /*background: blue; /* debugging */*/
+
+#header1{
+    margin-bottom:0;
+}
+#header2{
+    margin-top:0;
 }
 
+.centerhead{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.headers{
+    width: 1000px;
+}
+
+.sideprojectslist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sideproject{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    flex-wrap: wrap;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+
+}
+.sideproject-description{
+    max-width: 1000px;
+}
+
+
+.footnote{
+    font-size: 10px ;
+}
